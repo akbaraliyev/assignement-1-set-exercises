@@ -1,0 +1,29 @@
+body {
+    background-color: #614051;
+}
+
+.container {
+    background-color: #fefae0;
+    margin: 10px 90px;
+    padding: 20px 50px;
+    
+}
+
+header h1 {
+    background-color: #614051;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    float: right;
+    margin-left: 20px;
+    width: 30%;
+    border: 5px solid #614051;
+}
+
+p, li {
+    font-size: 18px;
+}

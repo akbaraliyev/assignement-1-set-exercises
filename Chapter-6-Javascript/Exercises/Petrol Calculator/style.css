@@ -1,0 +1,80 @@
+body {
+    margin: 0; /* resets default page margins */
+    padding: 0; /* resets inner spacing */
+    background-color: #f0f4fa;
+    font-family: Arial, sans-serif; /* setting font */
+    display: flex; /* converts entire body to flexbox */
+    justify-content: center; /* horizontal centering */
+    align-items: center; /* vertical centering */
+    height: 100vh; /* full screen height */
+}
+
+.container {
+    background-color: #fff;  
+    width: 100%; 
+    max-width: 500px; /* limits maximum width of container */
+    padding: 30px; /* adds inner spacing */
+    border-radius: 12px; /* rounds corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* adds soft shadow to create depth */
+    text-align: center; /* centers all text inside container */
+}
+
+.container h1 {
+    color: #003366;
+    margin-bottom: 30px; /* adds space below heading */
+}
+
+.wrapper div {
+    display: flex; 
+    justify-content: space-between; /* aligns label and input evenly */
+    margin: 20px 0;
+    align-items: center;
+}
+
+.wrapper p {
+    margin: 0;
+    width: 50%; /* label takes 50%(half) space */
+    color: #003366;
+    text-align: left; /* aligns label text to left */
+}
+
+.wrapper input {
+    width: 45%; /* input takes 45% space */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* rounds corners */
+}
+
+#btn button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #0070e0, #003366); /* gradient color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 0 #001f4d; /* create drop shadow effect for 3d look */
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#btn button:hover {
+    opacity: 0.9; /* fades button on hover for interactivity */
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px); /* adds button pressed effect on click */
+}
+
+#btn h2 {
+    color: #003366;
+    margin: 5px 0; /* adds spacing above and below */
+}
+
+#totalAmount {
+    font-weight: bold;
+    font-size: 20px;
+    color: #003366;
+}

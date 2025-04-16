@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    font-size: 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 2em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0 10px;
+}
+
+.welcome {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.welcome h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.welcome p {
+    font-size: 1.2em;
+}
+
+.welcome img {
+    width: 100%;
+}
+
+.lineup {
+    flex: 1;
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+}
+
+.lineup h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.lineup ul {
+    list-style-type: " - ";
+    padding: 0;
+}
+
+.lineup ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.lineup .right_images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.lineup img {
+    width: 48%;
+}
+
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 10px;
+}
